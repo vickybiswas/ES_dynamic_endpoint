@@ -37,8 +37,8 @@ func main() {
 	rows.Close()
 	db.Close()
 	auth := aws.Auth{
-		AccessKey: "AKIARGSIOJPS4YLEEUMO",
-		SecretKey: "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",
+		AccessKey: "",
+		SecretKey: "",
 	}
 	useast := aws.USEast
 	connection := s3.New(auth, useast)
